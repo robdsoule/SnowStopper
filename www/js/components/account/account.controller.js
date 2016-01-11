@@ -2,7 +2,7 @@
   'use strict';
 
   function AccountController($scope) {
-    $scope.settings = {
+    this.settings = {
       enableFriends: true
     };
   }

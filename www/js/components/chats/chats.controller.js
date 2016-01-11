@@ -10,8 +10,8 @@
     //$scope.$on('$ionicView.enter', function(e) {
     //});
 
-    $scope.chats = ChatsService.all();
-    $scope.remove = function(chat) {
+    this.convos = ChatsService.all();
+    this.remove = function(chat) {
       ChatsService.remove(chat);
     };
   }
