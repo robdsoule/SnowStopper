@@ -1,7 +1,7 @@
 {
-  "name": "snowstopper",
+  "name": "BITabs",
   "version": "1.1.1",
-  "description": "SnowStopper: An Ionic project",
+  "description": "BITabs: Browserify-Ionic-Tabs-Starter",
   "scripts": {
     "install": "napa"
   },

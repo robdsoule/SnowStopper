@@ -1,4 +1,4 @@
-# Browserified Ionic Base Tabs App - RSo3
+# BITabs-  Browserified Ionic Tabs Starter App - RSo3
 
 ```
 npm install napa -g
