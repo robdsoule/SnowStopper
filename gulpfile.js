@@ -42,8 +42,10 @@ gulp.task('sass', function(done) {
 gulp.task('lint', function() {
   gulp.src(['./www/js/**/*.js'])
     .pipe(jshint())
-    .pipe(jshint.reporter('default'))
-    .pipe(jshint.reporter('fail'));
+    .pipe(jshint.reporter('default'));
+    // removed fail on lint, if it failed during ionic serve builds it would have
+    // to cancel and reopen ionic serve, have to watch term output on change
+    // .pipe(jshint.reporter('fail'));
 });
 
 // Browserify, vinylSource required for Browserify output to be usable by Gulp

@@ -5,6 +5,7 @@
     "cordova",
     "ionic",
     "angular",
-    "$"
+    "$",
+    "StatusBar"
   ]
 }

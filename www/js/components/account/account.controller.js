@@ -1,12 +1,10 @@
-(function() {
-  'use strict';
+'use strict';
 
-  function AccountController($scope) {
-    this.settings = {
-      enableFriends: true
-    };
-  }
+function AccountController($scope) {
+  this.settings = {
+    enableFriends: true
+  };
+}
 
-  module.exports = ['$scope', AccountController];
-}());
+module.exports = ['$scope', AccountController];
 

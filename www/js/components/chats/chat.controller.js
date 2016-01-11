@@ -1,10 +1,8 @@
-(function() {
-  'use strict';
+'use strict';
 
-  function ChatController($scope, $stateParams, ChatsService) {
-    this.chatter = ChatsService.get($stateParams.chatId);
-  }
+function ChatController($scope, $stateParams, ChatsService) {
+  this.chatter = ChatsService.get($stateParams.chatId);
+}
 
-  module.exports = ['$scope', '$stateParams', 'ChatsService', ChatController];
-}());
+module.exports = ['$scope', '$stateParams', 'ChatsService', ChatController];
 

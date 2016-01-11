@@ -1,7 +1,5 @@
-(function() {
-  'use strict';
+'use strict';
 
-  module.exports = angular.module('menu', [])
-    .controller('MenuCtrl', require('./menu.controller'));
-}());
+module.exports = angular.module('menu', [])
+  .controller('MenuCtrl', require('./menu.controller'));
 
