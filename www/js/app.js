@@ -4,6 +4,7 @@
   require('angular');
   require('ionic');
 
+  require('./components/constants');
   require('./components/account/account');
   require('./components/chats/chats');
   require('./components/dash/dash');
@@ -12,6 +13,7 @@
   module.exports = angular.module('main', [
     'ionic',
     'firebase',
+    'constants',
     'account',
     'chats',
     'dash',
