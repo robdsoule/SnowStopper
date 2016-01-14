@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<widget id="com.rso3.snowstopper313709" version="0.0.1" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
-  <name>SnowStopper</name>
+<widget id="com.rso3.bitabs313709" version="0.0.1" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
+  <name>BITabs</name>
   <description>
-    App to get that snow off your driveway!
+    Starting Browserified, Ionic tabs app
   </description>
   <author email="you@example.com" href="http://example.com.com/">
     Rob Soule
